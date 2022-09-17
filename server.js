@@ -66,7 +66,7 @@ app.get('/api/:name',(request, response)=>{
     }
 })
 
-app.listen(PORT, ()=>{
+app.listen(process.env.PORT || PORT, ()=>{
 //console log to make sure the port is running
     console.log(`Server is running on ${PORT}!`)
 })
