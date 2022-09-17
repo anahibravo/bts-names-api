@@ -8,51 +8,51 @@ app.use(cors())
 const bts = {
     'rm': {
         'age': 28,
-        'birthname': 'Kim Nam-joon',
+        'birthName': 'Kim Nam-joon',
         'hangul': '김남준',
-        'birthlocation':'Seoul, South Korea'
+        'birthLocation':'Seoul, South Korea'
     },
     'jin': {
         'age': 29,
-        'birthname': 'Kim Seok-jin',
+        'birthName': 'Kim Seok-jin',
         'hangul': '김석진',
-        'birthlocation':'Gwacheon, South Korea'
+        'birthLocation':'Gwacheon, South Korea'
     },
     'suga': {
         'age': 29,
-        'birthname': 'Min Yoon-gi',
+        'birthName': 'Min Yoon-gi',
         'hangul': '민윤기',
-        'birthlocation':'Daegu, South Korea'
+        'birthLocation':'Daegu, South Korea'
     },
     'jhope': {
         'age': 28,
-        'birthname': 'Jung Ho-seok',
+        'birthName': 'Jung Ho-seok',
         'hangul': '정호석',
-        'birthlocation':'Gwangju, South Korea'
+        'birthLocation':'Gwangju, South Korea'
     },
     'jimin': {
         'age': 26,
-        'birthname': 'Park, Ji-min',
+        'birthName': 'Park, Ji-min',
         'hangul': '박지민',
-        'birthlocation':'Busan, South Korea'
+        'birthLocation':'Busan, South Korea'
     },
     'v': {
         'age': 26,
-        'birthname': 'Kim Tae-hyung',
+        'birthName': 'Kim Tae-hyung',
         'hangul': '김태형',
-        'birthlocation':'Daegu, South Korea'
+        'birthLocation':'Daegu, South Korea'
     },
     'jungkook': {
         'age': 25,
-        'birthname': 'Jeon Jung-kook',
+        'birthName': 'Jeon Jung-kook',
         'hangul': '전정국',
-        'birthlocation':'Busan, South Korea'
+        'birthLocation':'Busan, South Korea'
     },
     'unknown':{
         'age': 0,
-        'birthname': 'unknown',
+        'birthName': 'unknown',
         'hangul': 'unknown',
-        'birthlocation':'unknown'
+        'birthLocation':'unknown'
     }
 }
 //like a click(event listener) but it's a network request
