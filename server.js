@@ -32,7 +32,7 @@ const bts = {
     },
     'jimin': {
         'age': 26,
-        'birthName': 'Park, Ji-min',
+        'birthName': 'Park Ji-min',
         'hangul': '박지민',
         'birthLocation':'Busan, South Korea'
     },
